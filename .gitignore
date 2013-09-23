@@ -1,0 +1,13 @@
+*~
+.DS_Store
+*.DS_Store
+*/.DS_Store
+uploads/
+/nbproject/**
+.idea/*
+
+config/initialize.local.*
+config/dependencies.js
+node_modules/*
+.DS_Store
+app/uploads/*
