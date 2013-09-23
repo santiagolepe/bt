@@ -1,8 +1,9 @@
+// ALL ROUTES (get, post, put, delete, etc)
 
-/*
- * GET home page.
- */
+var indexController = require('../controllers/indexController');
 
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-};
+module.exports = function(app){
+
+	//index routes
+	app.get('/', indexController.index.bind(indexController));
+}
